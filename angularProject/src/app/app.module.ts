@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
 import { StarsComponent } from './stars/stars.component';
+import { ProductComponent } from './product/product.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { StarsComponent } from './stars/stars.component';
     FooterComponent,
     NavbarComponent,
     SearchComponent,
-    StarsComponent
+    StarsComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule
