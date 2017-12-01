@@ -1,0 +1,14 @@
+Angular核心：组件
+
+新特性：angularcli(新工具)
+        服务器端渲染
+        移动端和桌面兼容
+1、搭建angular环境
+    安装node.js 
+    node -v
+    npm -v
+    npm install -g @angular/cli
+    ng new buyAngular  创建angularcli的项目环境路径
+   安装第三方组件库
+   npm install jquery --save
+   npm install @types/jquery --save-dev
