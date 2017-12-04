@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProductComponent implements OnInit {
 
   private products:Array<Product>;
-
+  imgUrl="http://images.xiustatic.com/cms/noregular/2017/11/07/hd_mainVenue_171107/enter_02.jpg";
   constructor() { }
 
   ngOnInit() {

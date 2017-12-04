@@ -1,11 +1,11 @@
 <div  class="col-md-4 col-sm-4 col col-lg-4" *ngFor="let product of products" >
   <div class="thumbnail">
-    <img src="http://images.xiustatic.com/cms/noregular/2017/11/07/hd_mainVenue_171107/enter_02.jpg" alt="">
+    <img [src]="imgUrl" alt="">
     <div class="caption">
       <h4 class="pull-right">{{product.price}}</h4>
       <h4><a>{{product.title}}</a></h4>
       <p>{{product.desc}}</p>
     </div>
-    <app-stars></app-stars>
+    <app-stars [rating]="product.rating"></app-stars>
   </div>
 </div>
