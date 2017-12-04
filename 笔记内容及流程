@@ -1,5 +1,7 @@
 Angular核心：组件
 
+2017-12-01
+
 新特性：angularcli(新工具)
         服务器端渲染
         移动端和桌面兼容
@@ -12,3 +14,6 @@ Angular核心：组件
    安装第三方组件库
    npm install jquery --save
    npm install @types/jquery --save-dev
+
+
+2017-12-04
