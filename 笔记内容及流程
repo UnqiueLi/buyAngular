@@ -1,5 +1,6 @@
 Angular核心：组件
 
+2017-12-01
 新特性：angularcli(新工具)
         服务器端渲染
         移动端和桌面兼容
@@ -12,3 +13,40 @@ Angular核心：组件
    安装第三方组件库
    npm install jquery --save
    npm install @types/jquery --save-dev
+
+2017-12-04
+*ngFor 遍历数据
+数据绑定：1 {{}} 插值绑定
+         2 [] 属性绑定
+
+装饰器：
+数据输入：@Input
+
+路由router：
+路由配置：
+{path：'',component:HomeComponent}
+
+imports:[RouterModule.forRoot(routes)]
+路由插座
+<router-outlet></router-outlet>
+[routeLink]="['/']"
+
+
+navigate导航
+
+在查询时，传递数据
+在路由路径中传递数据
+在路由配置中传递数据
+
+路由重定向
+{path:'',redirectTo:'/home',pathMatch:'full'}
+
+子路由
+{
+	path:'home',component:HomeComponent,
+	children:[
+		{path:'',component:XXXComponent}
+	]
+}
+
+辅助路由
